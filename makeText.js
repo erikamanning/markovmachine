@@ -45,7 +45,6 @@ async function markovTest(rFileText){
         console('Process failed. Error: ', e);
         process.exit(1);
     }
-
 }
 
 myRead(process.argv[2], process.argv[3]);
